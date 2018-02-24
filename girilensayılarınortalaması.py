@@ -1,3 +1,4 @@
+_auther_='Tarik Ünal'
 print("Bu örnek kullanıcı tarafıdan virgül ile girilen sayıların ortalamasını hesaplar")
 
 numaralar = input("Virgül ile sayıları giriniz.: ")
