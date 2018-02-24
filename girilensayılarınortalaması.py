@@ -1,5 +1,5 @@
 _auther_='Tarik Ünal'
-print("Bu örnek kullanıcı tarafıdan virgül ile girilen sayıların ortalamasını hesaplar")
+print("Virgül ile girilen sayıların ortalamasını hesaplar. x,y,z...")
 
 numaralar = input("Virgül ile sayıları giriniz.: ")
 
