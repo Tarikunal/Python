@@ -1,0 +1,20 @@
+import datetime
+
+now = datetime.datetime.now()
+yyyy = str(now.year)
+mm = str(now.month)
+dd = str(now.day)
+hh = str(now.hour)
+mi = str(now.minute)
+se = str(now.second)
+ms = str(now.microsecond)
+
+print(str(now))
+print('Current year:',yyyy)
+print('Current month:',mm)
+print('Current day:',dd)
+print('Current hour:',hh)
+print('Current minute:',mi)
+print('Current second:',se)
+print('Current microsecond:',ms)
+print(dd+'/'+mm+'/'+yyyy)
