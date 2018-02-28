@@ -1,4 +1,4 @@
-# Basit hesapmakinesi eval() fonksiyonunun çalışması
+# Tarık Ünal
 print("-"*30)
 print("""
 Hesap Makinesi Uygulaması
