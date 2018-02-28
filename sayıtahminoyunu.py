@@ -1,4 +1,4 @@
-# Bu bir sayı tahmin oyunudur
+# Tarık Ünal
 import random
 
 tahminSayısı = 0
