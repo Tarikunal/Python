@@ -1,3 +1,4 @@
+#Tarık Ünal
 ''' izinli_karakterler = "0123456789"
 while True:
     hata = 0
