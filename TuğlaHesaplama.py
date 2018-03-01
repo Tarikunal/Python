@@ -1,3 +1,4 @@
+#28.02.18
 _auther_='Tarık Ünal'
 a= input("duvar dikey kaç metre=")
 b= input("duvar yatay kaç metre=")
