@@ -1,5 +1,5 @@
 _auther_='Tarık Ünal'
-#Girilen metindeki ünlü harf sayısıını veren fonksiyon
+#Girilen metindeki ünlü harf sayısını veren fonksiyon
 s = input("Metni giriniz...:")
 sesli_harf = 'aeıioöuüAEIİUÜOÖ'
 sayac = 0
