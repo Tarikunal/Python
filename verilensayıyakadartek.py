@@ -1,3 +1,4 @@
+_auther_='Tarık Ünal'
 s = input('Lütfen bir tam sayı giriniz..:')
 try:
     if int(s)>=0:
