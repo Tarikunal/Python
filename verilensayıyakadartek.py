@@ -1,3 +1,4 @@
+#03.03.18
 _auther_='Tarık Ünal'
 s = input('Lütfen bir tam sayı giriniz..:')
 try:
