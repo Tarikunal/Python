@@ -1,4 +1,5 @@
 #06.03.2018
+_auther_='
 num1=int(input("Başlangıç sayısını girin: "))
 num2=int(input("Bitiş sayısını girin: "))
 num3=int(input("Artışı girin: "))
