@@ -1,3 +1,4 @@
+#08.03.18
 fileName = "TextDos."
 
 girdi = input("Yazmak istediğiniz mesaj ..:")
