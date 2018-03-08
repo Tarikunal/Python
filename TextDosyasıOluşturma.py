@@ -1,5 +1,5 @@
 #08.03.18
-
+_author_='Tarık Ünal'
 fileName = "TextDos."
 
 girdi = input("Yazmak istediğiniz mesaj ..:")
