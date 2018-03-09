@@ -1,5 +1,5 @@
 #03.03.18
-_auther_='Tarık Ünal'
+_author_='Tarık Ünal'
 s = input('Lütfen bir tam sayı yazınız..:\n')
 try:
     if int(s)>=0:
