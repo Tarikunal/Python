@@ -1,4 +1,4 @@
-_auther_='Tarık Ünal'
+_author_='Tarık Ünal'
 ''' izinli_karakterler = "0123456789"
 while True:
     hata = 0
