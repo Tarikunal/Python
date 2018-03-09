@@ -1,4 +1,4 @@
-_auther_='Tarık Ünal'
+_author_='Tarık Ünal'
 
 """
     Zaman göstereç
