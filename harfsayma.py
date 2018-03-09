@@ -1,4 +1,4 @@
-_AUTHER_='Tarık Ünal'
+_AUTHOR_='Tarık Ünal'
 #Harf/Kelime sayma
 metin = input("Metni giriniz...:")
 
