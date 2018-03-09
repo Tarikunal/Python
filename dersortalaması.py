@@ -1,5 +1,5 @@
 #04.03.18
-_auther_='Tarık Ünal'
+_author_='Tarık Ünal'
 
 
 sayılar=0
