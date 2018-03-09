@@ -1,5 +1,5 @@
 #06.03.2018
-_auther_='Tarık Ünal'
+_author_='Tarık Ünal'
 #Girilen iki sayı arasındaki sayıları yazdıran fonksiyon
 
 num1=int(input("Başlangıç sayısını girin: "))
