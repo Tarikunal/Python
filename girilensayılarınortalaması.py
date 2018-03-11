@@ -1,4 +1,5 @@
 _author_='Tarık Ünal'
+
 print("Virgül ile girilen sayıların ortalamasını hesaplar. x,y,z...")
 
 numaralar = input("Virgül ile sayıları giriniz.: ")
