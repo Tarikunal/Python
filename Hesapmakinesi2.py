@@ -1,3 +1,6 @@
+_author_='Tarık Ünal'
+#11.03.18
+
 giris = """
 (1) Toplama İşlemi
 (2) Çıkarma İşlemi
