@@ -1,5 +1,5 @@
 
-### Tarık Ünal  ###
+
 
 
 a = int(input("a:"))
