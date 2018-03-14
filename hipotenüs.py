@@ -1,6 +1,4 @@
-
-
-
+_author_='Tarık Ünal'
 
 a = int(input("a:"))
 
