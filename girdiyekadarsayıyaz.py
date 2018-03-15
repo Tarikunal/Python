@@ -1,3 +1,3 @@
-sayi=input('Sayıyı Giriniz..: ')
-for i in range(1,int(sayi)+1):
+girdi = input('Sayıyı Giriniz..: ')
+for i in range(1,int(girdi)+1):
         print(i)
