@@ -1,4 +1,4 @@
-
+_author_
 
 def f(e):
     print( e*" _")
