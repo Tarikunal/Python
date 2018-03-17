@@ -1,7 +1,7 @@
 _author_='Tarık Ünal'
 #17.03.18
 
-from random import choice #from <Modül adı> import <İçericek Nesne>
+from random import choice   #from <Modül adı> import <İçericek Nesne>
 
 kelimeler = [
     choice(["Gücüm yetmiyor","Hesaplar benden","Pencereyi kapama","Sen kocaman çöllerԁe bir kalabalık gibisin","Kimse","Ben sana mecburum bilemezsin","Küçük hesaplar", "Kader", "Ağlamak için gözԁen уaş mı akmalı","Merdivenli sokakta demedim","Ey Aşk","Hani dünya tatlısı","Terk edilmiş", "Sana sorsam uzağım"]),
