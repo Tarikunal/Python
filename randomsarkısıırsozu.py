@@ -53,63 +53,63 @@ while True:
         break
     elif misra_sayisi == 1 :
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi, ",\n"" {} {} {} {} {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi, "{} {} {} {} {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 2 :
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi, ",\n"" {} {} {} {},\n {} {} {} {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi, "{} {} {} {},\n {} {} {} {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 3 :
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi, ",\n"" {} {} {} {},\n {} {} {} {},\n {} {} {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi, "{} {} {} {},\n {} {} {} {},\n {} {} {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 4 :
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi, ",\n"" {} {} {} {},\n {} {} {},\n {} {} {},\n {} {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi, "{} {} {} {},\n {} {} {},\n {} {} {},\n {} {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 5 :
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi, ",\n"" {} {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi, "{} {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 6 :
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi, ",\n"" {} {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi, "{} {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 7:
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi, ",\n"" {} {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi, "{} {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 8:
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi, ",\n"" {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi, "{} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 9:
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi, ",\n"" {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi, "{} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 10:
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi, ",\n"" {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi, "{} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 11:
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi,",\n"" {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi,"{} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 12:
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi,",\n"" {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi,"{} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 13:
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi,",\n"" {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi,"{} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 14:
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi,",\n"" {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi,"{} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {}".format(*kelimeler),kadin_ismi+".")
         break
     elif misra_sayisi == 15:
         print(("--" * 19) + "\nRandom şiir/şarkı sözü yazdırma\n" + ("--" * 19))
-        print(erkek_ismi,",\n"" {} {} {},\n {} {} {},\n {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {}.".format(*kelimeler))
+        print(" "+erkek_ismi, "{} {} {},\n {} {} {},\n {} {},\n {} {} {},\n {} {} {},\n {} {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {},\n {} {}".format(*kelimeler),kadin_ismi+".")
         break
     else :
         print("Hatalı Giriş Yapıldı...")
