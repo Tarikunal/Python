@@ -1,4 +1,6 @@
 _author_='Tarık Ünal'
+#17.03.18
+
 from random import choice #from <Modül adı> import <İçericek Nesne>
 
 kelimeler = [
