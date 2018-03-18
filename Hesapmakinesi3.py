@@ -1,5 +1,5 @@
 #18.03.18
-
+#Tarık Ünal
 import sys
 
 _3x_metni = "Hesap Makinesine Hoş Geldiniz."
