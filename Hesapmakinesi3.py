@@ -1,3 +1,5 @@
+#18.03.18
+
 import sys
 
 _3x_metni = "Hesap Makinesine Hoş Geldiniz."
