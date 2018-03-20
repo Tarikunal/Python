@@ -1,4 +1,5 @@
 _author_='Tarık Ünal'
+
 faktoriyel=1
 
 while True:
@@ -11,4 +12,3 @@ while True:
 
         print("Faktröiyel sonucu =",faktoriyel)
         break
-
