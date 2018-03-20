@@ -1,4 +1,5 @@
-_author_='Tarık Ünal' #24.02.17
+_author_='Tarık Ünal' 
+#24.02.17
 from random import randint
 
 rand = randint(1, 200)
