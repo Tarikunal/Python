@@ -1,4 +1,4 @@
-_author_='Tarık Unal'
+_author_='Tarık Ünal'
 
 while True:
     print("Kitap Okumak (1)")
