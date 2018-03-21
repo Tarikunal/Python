@@ -37,5 +37,3 @@ while True:
     else:
         print("Aktivite numarası geçersizdir. Program sonlandırılıyor...")
         break
-
-
