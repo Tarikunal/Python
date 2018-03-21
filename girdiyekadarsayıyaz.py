@@ -1,3 +1,4 @@
+_author_
 girdi = input('Sayıyı Giriniz..: ')
 for i in range(1,int(girdi)+1):
         print(i)
