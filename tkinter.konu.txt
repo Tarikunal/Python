@@ -1,0 +1,176 @@
+PYTHON TKINTER KULLANIMI
+Tkinter  , arayuz hazırlamak için pythonun bize sundugu bir moduldur . Pencere elemanları kod ile yazılır.Baslangıc için cok ögretici bir moduldur yalnız ilerledikce  yeterli gelmeyebilir, görsel acıdan diger (wx  ,pyqt) modullerine gore geri kalabilir ama ogrenmesi diger modullere gore cok daha  kolaydır.
+Tkinter ogrenmeye gecmeden once python u saglam bi sekilde ogrenmenizi tavsiye ederm yoksa cok zorlanırsınız listeler , tupler , sözlükler , cumle islemleri özelliklede sınıflar konusuna  hakim olmalısınız.Acele etmeden temeli saglam atın ki ilerde karsılasacagınız sorunlara kolayca cozum bulasınız…
+ 
+                from Tkinter import *   seklinde modul cagrılır
+
+       Modulumuzu cagırdıktan sonra kodlamada kolaylık olsun diye  Tk() fonksiyonunu kullanımı daha kolay olan bi nesneye atayalım…
+
+               Fonk=Tk()  seklinde ….
+
+            Tum pencere elemanlarını yerlestirdikten sonra mainloop() ile bitis yapılır bu fonksiyon penceremizin kaybolmadan yerinde durmasını saglar.
+  Simdi de pencere elamanlarını tanıtalım;
+
+BUTTON:
+
+
+            Buton() seklinde cagrılır ve bunu geometri yoneticimiz ile ekrana yapıstırırz.
+
+                              Buton().pack()
+text ile ekranda gormek istedigimiz  yazıyı yazarız.   Button(text=”ilk buton”).pack() 
+gibi… Butona gorev atamak için ise command fonksiyonunu kullanacagız..
+
+                              Buton(text=”ilk buton”,command=fonk1) 
+ command fonksiyonu ile butona yapması gereken islemi  gostermis olduk. Simdi islemi tamamlama asamasında fonk1 fonksiyonunu olusturacagız…
+
+                           def fonk1( ):
+                                       print “simdi tıkladın”
+                            
+ve dedigimiz gibi mainloop() fonksiyonu ile islemi bitiririz.
+
+                from Tkinter import *
+              
+               Fonk=Tk()
+             
+               def fonk1( ):
+                        print “simdi tıkladın”
+              
+               Buton(text=”ilk buton”,command=fonk1).pack()
+              mainloop()        
+        Arayuz tasarlarken sınıfları kesinlikle ogrenmeniz gerekmektedir bu ,uzun kodlarda işinizi  cok kolaylastırmakla birlikte kodlarınızın cok duzenli gorunmesini saglayacaktır.
+
+Sınıfları kullanarak aynı kodu tekrar yazalım
+
+from Tkinter import *    
+
+class sinifismi:
+        def __init__(self,master):
+                  #pencereye elemanlarını bu kısımda yerlestirecegiz..
+                  Button(text=”Sınıflar”,command=self.fonk1).pack()
+         def fonk1(self):
+                   print  “Tkinter ve Sınıflar”
+ Fonk=Tk()
+ atama=sinifismi(Fonk)                   
+ mainloop() 
+
+         Kodların cok daha duzenli oldugu goruluyor Bu uzun kodlarda cok fark edecektir.Bundan sonra ki kodlarımı sınıfları kullanarak yazacagım.      
+
+LABEL:
+
+     Ekranda gormek istedigimiz kucuk acıklayıcı notlardır.
+        
+                     Label(text=”metin”).pack()      seklinde kullanılır.
+
+
+from Tkinter import *
+import random
+
+class sinif:
+    def __init__(self,master):
+        self.yaz=Label(text="Cekilis")
+        self.yaz.pack()
+        self.tikla=Button(text="basla",command=self.cek)
+        self.tikla.pack()
+        
+    def cek(self):
+        sayi=random.randint(0,10)       #0,10 arası rasgele bir sayi
+        self.yaz.config(text="Rasgele Sayilar:%s"%(sayi))
+
+ana=Tk()
+atama=sinif(ana)
+mainloop() 
+
+ENTRY:
+Kullanıcının giris yapabilmesi  için kullanılır.
+
+Entry().pack()   seklinde kullanımı vardır. Bu pencere ögesinde bilmemiz gereken textvariable  , get() ,  IntVar( ) , StringVar( ), DoubleVar( ) 
+
+
+IntVar()>>>>>>>Tamsayi girisi
+StringVar()>>>>>Cumle girisi
+DoubleVar()>>>>>Küsürlü sayilar
+
+textvariable>>>>Giris yapılan degeri (IntVar(),StringVar(),DoubleVar()) tutar
+get()>>>>>>>>Giris yapılanı kullanmamızı saglar. 
+
+from Tkinter import *
+
+class toplam:
+    def __init__(self,master):
+        self.deger=IntVar()
+        self.girs=Entry(textvariable=self.deger)
+        self.girs.pack()
+        Button(text="girileni goster",command=self.goster).pack()
+        self.yaz=Label()
+        self.yaz.pack()
+        
+    def goster(self):
+        self.yaz.config(text=self.deger.get())
+        self.girs.delete(0,END)
+
+ana=Tk()
+yeni=toplam(ana)
+mainloop()
+
+       Rasgele Sayı Bulan programımızı burada “kullanıcının girdigi sayilardan biri ile  eslenip eslenmemesi”  durumuna bakalım.
+
+from Tkinter import *
+import random
+
+class sinif:
+    def __init__(self,master):
+        self.yaz=Label(text="Cekilis")
+        self.yaz.pack()
+        
+        self.giris=IntVar()
+        Entry(textvariable=self.giris).pack()
+        self.tikla=Button(text="basla",command=self.cek)
+        self.tikla.pack()
+        
+    def cek(self):
+        sayi=random.randint(0,10)
+        if self.giris.get()==sayi:
+            self.yaz.config(text="Dogru Tahmin:%s"%(sayi))
+        else:
+            self.yaz.config(text="Bir Daha Dene:%s"%(sayi))
+
+ana=Tk()
+atama=sinif(ana)
+mainloop()
+
+LİSTBOX:
+
+ Kullanım sekli :
+
+       Liste=Listbox().pack()
+
+           Liste.insert(END,”merhaba”)   # merhaba kelimesini listeye ekler
+          Liste.delete(0,END)              # listede bulunan elemanların hepsini siler
+          Liste.delete(sira)                  #silmek istediginiz sirayi siler
+         Liste.delete(ACTIVE)            #aktif olan liste elemanını siler
+         Liste.curselection()               #aktif olan liste elemanının sırasını verir.
+
+
+
+from Tkinter import *
+
+class sinifismi:
+    def __init__(self,master):
+        
+        self.giris=StringVar()
+        Entry(textvariable=self.giris).pack()
+        self.liste=Listbox()
+        self.liste.pack()
+        Button(text="Ekle",command=self.eklesene).pack()
+        Button(text="Sil",command=self.silsene).pack()
+
+    def eklesene(self):
+
+        self.liste.insert(END,self.giris.get())
+
+    def silsene(self):
+        self.liste.delete(ACTIVE)
+
+ana=Tk()
+yeni=sinifismi(ana)
+mainloop()
